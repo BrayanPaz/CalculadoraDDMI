@@ -5,7 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.calculadora}>
-        
+        <View style={styles.tela}>
+        </View>
       </View>
     </View>
   );
@@ -19,5 +20,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   calculadora: {
+    width: '90%',
+    heigth: '90%',
+  },
+  tela: {
+    width: '90%',
+    heigth 
+  }
+  botao: {
     
-});
+  }
+);
